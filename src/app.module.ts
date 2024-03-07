@@ -12,8 +12,8 @@ import { CoffeesModule } from './coffees/coffees.module';
       host: 'localhost',
       port: 5432,
       username: 'postgres',
-      password: 'pass1234',
-      database: 'nest',
+      password: 'pass123',
+      database: 'postgres',
       autoLoadEntities: true,
       synchronize: true, // make sure to turn this off in production
     }),
